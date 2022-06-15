@@ -17,3 +17,10 @@ Contrôler les changements des forks to workflow dans les public repositories :
 - Dans le menu à gauche cliquer sur Actions puis General
 - Dans Fork pull request workflows from outside collaborators j'ai laissé "Require approval for first-time contributors"
 - Cliquer sur "Save"
+
+
+Configurer les permissions du GITHUB_TOKEN pour le repository :
+
+- Sous le nom du repository cliquer sur Settings
+- Dans le menu à gauche cliquer sur Actions puis General
+- 
