@@ -37,11 +37,13 @@ Empêcher les actions GitHub de créer ou d'approuver des demandes de pull :
 Configuration de la période de conservation des artefacts et des logs pour Github Actions dans votre repository  :
 - Sous le nom du repository cliquer sur Settings
 - Dans le menu à gauche cliquer sur Actions puis General
-- Pour les public repositories : vous pouvez modifier cette période de conservation entre 1 jour et 90 jours, j'ai choisi 90 jours.
+- Pour les public repositories : vous pouvez modifier cette période de conservation entre 1 jour et 90 jours
 
 
 Définition de la période de conservation d'un repository  :
-- 
+- Sous le nom du repository cliquer sur Settings
+- Dans le menu à gauche cliquer sur Actions puis General
+- Sous Artifact et log retention, entrer une nouvelle valeur : J'ai maintenu 90 jours
 
 
 
