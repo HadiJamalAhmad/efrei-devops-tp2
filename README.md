@@ -8,7 +8,7 @@ Je me suis inspiré de cette ressource pour cette configueation de workflow Gith
 - Sous le nom du repository cliquer sur Settings
 - Dans le menu à gauche cliquer sur Actions puis General
 - Choissez une option dans "Actions Permissions"
-- j'ai laissé "Allow all actions and reusable workflows"
+- j'ai choisi "Allow all actions and reusable workflows"
 
 
 Contrôler les changements des forks to workflow dans les public repositories :
@@ -23,13 +23,14 @@ Configurer les permissions du GITHUB_TOKEN pour le repository :
 
 - Sous le nom du repository cliquer sur Settings
 - Dans le menu à gauche cliquer sur Actions puis General
-- Sous "Workflow permissions", choisissez si vous voulez que le GITHUB_TOKEN ait un accès en lecture et en écriture pour tous les scopes, ou seulement un accès en lecture pour le scope du contenu : j'ai laissé sur "Read and write permissions"
+- Sous "Workflow permissions", choisissez si vous voulez que le GITHUB_TOKEN ait un accès en lecture et en écriture pour tous les scopes, ou seulement un accès en lecture pour le scope du contenu : j'ai choisi "Read and write permissions"
 
 
 Empêcher les actions GitHub de créer ou d'approuver des demandes de pull :
 - Sous le nom du repository cliquer sur Settings
 - Dans le menu à gauche cliquer sur Actions puis General
-- 
+- Sous "Workflow permissions", utilisez le paramètre Allow GitHub Actions to create and approve pull requests pour configurer si GITHUB_TOKEN peut créer et approuver des demandes de pull : j'ai choisi "Read and write permissions"
+
 
 
 
