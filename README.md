@@ -31,7 +31,10 @@ Empêcher les actions GitHub de créer ou d'approuver des demandes de pull :
 - Dans le menu à gauche cliquer sur Actions puis General
 - Sous "Workflow permissions", utilisez le paramètre Allow GitHub Actions to create and approve pull requests pour configurer si GITHUB_TOKEN peut créer et approuver des demandes de pull : j'ai choisi "Read and write permissions"
 
-
+Configuration de la période de conservation des artefacts et des logs pour Github Actions dans votre repository  :
+- Sous le nom du repository cliquer sur Settings
+- Dans le menu à gauche cliquer sur Actions puis General
+- 
 
 
 
