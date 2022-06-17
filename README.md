@@ -46,6 +46,13 @@ Définition de la période de conservation d'un repository  :
 - Sous Artifact et log retention, entrer une nouvelle valeur : J'ai maintenu 90 jours
 
 
+Push automatiquement vers Docker Hub en utilisant Github Actions :
+- Sous le nom du repository cliquer sur Settings
+- Cliquer sur Secrets puis Actions
+- Dans New Repository Secret créer un DOCKER_USERNAME et un DOCKER_PASSWORD avec les valeurs de vos username et password sur Docker Hub
+
+
+
 
 
 
